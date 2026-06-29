@@ -1,0 +1,15 @@
+[VBDMES01]
+X=-16
+Y=0
+DM=5
+TI=11.5
+GRP=1
+F=0
+
+[VBDMES01]
+X=16
+Y=0
+DM=5
+TI=11.5
+GRP=1
+F=0

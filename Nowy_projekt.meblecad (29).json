@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "savedAt": "2026-06-28T23:12:26.278Z",
+  "project": {
+    "id": "sev27Nwn",
+    "name": "Nowy projekt",
+    "units": "mm",
+    "settings": {
+      "kerf": 3,
+      "bandingAllowance": 1,
+      "defaultBaseFace": "front",
+      "bandingThickness": 1
+    },
+    "materials": [
+      {
+        "id": "vcyRwEol",
+        "name": "Płyta 18 mm",
+        "thickness": 18,
+        "hasGrain": true,
+        "sheet": {
+          "w": 2800,
+          "h": 2070
+        },
+        "defaultBanding": "ABS 1 mm"
+      }
+    ],
+    "panels": [
+      {
+        "id": "mOsNx25Y",
+        "name": "bok lewy",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 18,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            560,
+            0
+          ],
+          [
+            560,
+            720
+          ],
+          [
+            0,
+            720
+          ]
+        ],
+        "transform": {
+          "position": [
+            18,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            90
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [
+          {
+            "id": "8w4SqEr6:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "8w4SqEr6"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 475.99999999999994,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "0xrG0Lv_:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "0xrG0Lv_"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 277.99999999999994,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "rMf42m35:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "rMf42m35"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 79.99999999999996,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "lA5-4uUR:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "lA5-4uUR"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9.000000000000028,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "dNnGpyIm:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "dNnGpyIm"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9.000000000000018,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "QaqGPkE-:A:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "connector": "QaqGPkE-"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9.000000000000005,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:plate:0:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 37,
+              "y": 634,
+              "diameter": 5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:plate:0:1",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 37,
+              "y": 602,
+              "diameter": 5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:plate:1:0",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 37,
+              "y": 118,
+              "diameter": 5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:plate:1:1",
+            "type": "hole",
+            "face": "front",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 37,
+              "y": 86,
+              "diameter": 5,
+              "depth": 11,
+              "through": false
+            }
+          }
+        ],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      },
+      {
+        "id": "xvLNwsIP",
+        "name": "bok prawy",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 18,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            560,
+            0
+          ],
+          [
+            560,
+            720
+          ],
+          [
+            0,
+            720
+          ]
+        ],
+        "transform": {
+          "position": [
+            600,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            90
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [
+          {
+            "id": "7bQRw2Mr:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "7bQRw2Mr"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 79.99999999999996,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "C5LsgNJ1:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "C5LsgNJ1"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 277.99999999999994,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "9-TXdg68:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "9-TXdg68"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 475.99999999999994,
+              "y": 711,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "vat7sa-F:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "vat7sa-F"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9.000000000000005,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "UMQP1K1t:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "UMQP1K1t"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9.000000000000018,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          },
+          {
+            "id": "payAXO-g:A:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "connector": "payAXO-g"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9.00000000000003,
+              "diameter": 8,
+              "depth": 12,
+              "through": false
+            }
+          }
+        ],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      },
+      {
+        "id": "OK0GJkzm",
+        "name": "wieniec górny",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 18,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            564,
+            0
+          ],
+          [
+            564,
+            556
+          ],
+          [
+            0,
+            556
+          ]
+        ],
+        "transform": {
+          "position": [
+            18,
+            0,
+            720
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [
+          {
+            "id": "8w4SqEr6:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "8w4SqEr6"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "0xrG0Lv_:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "0xrG0Lv_"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "rMf42m35:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "rMf42m35"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "7bQRw2Mr:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "7bQRw2Mr"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "C5LsgNJ1:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "C5LsgNJ1"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "9-TXdg68:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "9-TXdg68"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          }
+        ],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      },
+      {
+        "id": "pdn3uVV5",
+        "name": "dół",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 18,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            564,
+            0
+          ],
+          [
+            564,
+            556
+          ],
+          [
+            0,
+            556
+          ]
+        ],
+        "transform": {
+          "position": [
+            18,
+            0,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [
+          {
+            "id": "lA5-4uUR:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "lA5-4uUR"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "dNnGpyIm:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "dNnGpyIm"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "QaqGPkE-:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 3
+            },
+            "source": {
+              "connector": "QaqGPkE-"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "vat7sa-F:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "vat7sa-F"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 80,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "UMQP1K1t:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "UMQP1K1t"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 278,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          },
+          {
+            "id": "payAXO-g:B:0",
+            "type": "hole",
+            "face": {
+              "edge": 1
+            },
+            "source": {
+              "connector": "payAXO-g"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 476,
+              "y": 9,
+              "diameter": 8,
+              "depth": 30,
+              "through": false
+            }
+          }
+        ],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      },
+      {
+        "id": "IJL8syq3",
+        "name": "plecy",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 4,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            564,
+            0
+          ],
+          [
+            564,
+            702
+          ],
+          [
+            0,
+            702
+          ]
+        ],
+        "transform": {
+          "position": [
+            18,
+            556,
+            0
+          ],
+          "rotation": [
+            90,
+            0,
+            0
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      },
+      {
+        "id": "IwF98Sjb",
+        "name": "front",
+        "materialId": "vcyRwEol",
+        "roomId": "FWtESBOY",
+        "thickness": 18,
+        "contour": [
+          [
+            0,
+            0
+          ],
+          [
+            596,
+            0
+          ],
+          [
+            596,
+            716
+          ],
+          [
+            0,
+            716
+          ]
+        ],
+        "transform": {
+          "position": [
+            2,
+            -19,
+            2
+          ],
+          "rotation": [
+            90,
+            0,
+            0
+          ]
+        },
+        "edges": [
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          },
+          {
+            "cutAngle": 90
+          }
+        ],
+        "grain": {
+          "direction": 0
+        },
+        "baseFace": "front",
+        "operations": [
+          {
+            "id": "QwtEEqeM:cup:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 22.5,
+              "y": 616,
+              "diameter": 35,
+              "depth": 13,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:cupscrew:0:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 32,
+              "y": 638.5,
+              "diameter": 3.5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:cupscrew:0:1",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 32,
+              "y": 593.5,
+              "diameter": 3.5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:cup:1",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 22.5,
+              "y": 100,
+              "diameter": 35,
+              "depth": 13,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:cupscrew:1:0",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 32,
+              "y": 122.5,
+              "diameter": 3.5,
+              "depth": 11,
+              "through": false
+            }
+          },
+          {
+            "id": "QwtEEqeM:cupscrew:1:1",
+            "type": "hole",
+            "face": "back",
+            "source": {
+              "hardware": "QwtEEqeM"
+            },
+            "dxfLayer": "DRILL",
+            "hole": {
+              "x": 32,
+              "y": 77.5,
+              "diameter": 3.5,
+              "depth": 11,
+              "through": false
+            }
+          }
+        ],
+        "groupId": "4wrCXM6_",
+        "cabinetId": ""
+      }
+    ],
+    "connectors": [
+      {
+        "id": "8w4SqEr6",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 80
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "0xrG0Lv_",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 278
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "rMf42m35",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 476
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "7bQRw2Mr",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 80
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "C5LsgNJ1",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 278
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "9-TXdg68",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "OK0GJkzm",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 476
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "lA5-4uUR",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 80
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "dNnGpyIm",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 278
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "QaqGPkE-",
+        "type": "dowel",
+        "panelA": "mOsNx25Y",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 3,
+          "offset": 476
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "vat7sa-F",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 80
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "UMQP1K1t",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 278
+        },
+        "groupId": "4wrCXM6_"
+      },
+      {
+        "id": "payAXO-g",
+        "type": "dowel",
+        "panelA": "xvLNwsIP",
+        "panelB": "pdn3uVV5",
+        "placement": {
+          "fromEdge": 1,
+          "offset": 476
+        },
+        "groupId": "4wrCXM6_"
+      }
+    ],
+    "hardware": [
+      {
+        "id": "QwtEEqeM",
+        "kind": "hinge",
+        "hinge": {
+          "family": "CLIP top BLUMOTION",
+          "openingAngle": 110,
+          "overlayClass": "full",
+          "cup": {
+            "diameter": 35,
+            "distanceTB": 5,
+            "depth": 13,
+            "mounting": "screw",
+            "screwPattern": [
+              [
+                -22.5,
+                9.5
+              ],
+              [
+                22.5,
+                9.5
+              ]
+            ]
+          },
+          "plate": {
+            "distance": 0,
+            "type": "CLIP",
+            "screwPattern": [
+              [
+                -16,
+                37
+              ],
+              [
+                16,
+                37
+              ]
+            ]
+          },
+          "options": {
+            "blumotion": true,
+            "tipOn": false,
+            "servoDrive": false
+          },
+          "doorPanel": "IwF98Sjb",
+          "sidePanel": "mOsNx25Y",
+          "placement": [
+            {
+              "fromEdge": 3,
+              "offset": 100
+            },
+            {
+              "fromEdge": 3,
+              "offset": 616
+            }
+          ]
+        },
+        "groupId": "4wrCXM6_"
+      }
+    ],
+    "rooms": [
+      {
+        "id": "FWtESBOY",
+        "name": "Pomieszczenie",
+        "walls": [
+          {
+            "id": "WStT0XGz",
+            "size": [
+              4000,
+              2600
+            ],
+            "transform": {
+              "position": [
+                0,
+                1500,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "color": "#dcd7c9"
+          },
+          {
+            "id": "nUwlI_46",
+            "size": [
+              4000,
+              2600
+            ],
+            "transform": {
+              "position": [
+                0,
+                -1500,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "color": "#dcd7c9"
+          },
+          {
+            "id": "NCuSkvQp",
+            "size": [
+              3000,
+              2600
+            ],
+            "transform": {
+              "position": [
+                -2000,
+                0,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ]
+            },
+            "color": "#dcd7c9"
+          },
+          {
+            "id": "3hd4CWhs",
+            "size": [
+              3000,
+              2600
+            ],
+            "transform": {
+              "position": [
+                2000,
+                0,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ]
+            },
+            "color": "#dcd7c9"
+          }
+        ],
+        "floor": {
+          "size": [
+            4000,
+            3000
+          ],
+          "color": "#b9b0a1"
+        },
+        "ceiling": {
+          "size": [
+            4000,
+            3000
+          ],
+          "color": "#f3f1ea"
+        }
+      }
+    ],
+    "cabinets": []
+  }
+}
